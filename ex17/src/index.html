@@ -1,0 +1,48 @@
+<h2>CatPhotoApp</h2>
+<main>
+    <a href="#">
+    <img src="https://www.pexels.com/photo/gray-cat-on-tree-branch-1693441/" alt="Gray cat on tree branch.">
+    </a>
+    <p>Kitty ipsum dolor sit amet, shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+
+    <p>Things cats love:</p>
+    <ul>
+        <li>Milk</li>
+        <li>Sleep</li>
+        <li>Cheese</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+        <li>Spoiled food</li>
+        <li>Dogs</li>
+        <li>Chili</li>
+    </ol>
+    <form action="/submit-cat-photo">
+     <div>
+        <label for="inside"> 
+            <input id="inside" type="radio" name="inside-outside" value="Inside" checked>Inside
+        </label>
+        <label for="outside">
+            <input id="outside" type="radio" name="inside-outside" value="Outside">Outside
+        </label>
+     </div>
+        <label for="checkbox">
+            <input type="checkbox" name="name" value="Dog" checked>Dog
+        </label>
+        <label for="checkbox">
+            <input type="checkbox" name="name" value="Cat">Cat
+        </label>
+        <label for="checkbox">
+            <input type="checkbox" name="name" value="Hamster">Hamster
+        </label>
+        <label for="checkbox">
+            <input type="checkbox" name="name" value="Bird">Bird
+        </label>
+        <label for="checkbox">
+            <input type="checkbox" name="name" value="Fish">Fish
+        </label>
+        
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+    </form>
+</main>
